@@ -7,6 +7,6 @@ headers = {
     "User-Agent": "playing with APIs in python and github actions, I'm here over at github.com/msoup"
 }
 
-def displayRandomJoke():
+def getRandomJoke():
     response = requests.get("https://icanhazdadjoke.com/", headers=headers)
-    print(response.json())
+    return response.json()
