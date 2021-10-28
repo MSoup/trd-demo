@@ -2,6 +2,6 @@ requests
 pandas
 openpyxl
 py-postgresql
-libpq
+libpq-dev
 pycopg2
 logging
