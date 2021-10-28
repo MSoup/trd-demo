@@ -24,6 +24,9 @@ def connect():
         db_version = cur.fetchone()
         print(db_version)
        
+        print('Checking DB contents...')
+        cur.execute('SELECT * FROM github_actions')
+
 	# close the communication with the PostgreSQL
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:

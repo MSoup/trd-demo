@@ -2,14 +2,15 @@ name: Triplet R&D Demo
 on: [push]
 jobs:
   build-and-test:
+    # to run on our own machines, use runs-on: self-hosted
     runs-on: ubuntu-latest
-    # runs-on: self-hosted
 
+    # matrix.python-version allows us to test 3.6 and 3.10
     strategy:
       matrix:
-        os: ['ubuntu-latest']
         python-version: ['3.6', '3.x']
 
+    # services allows us to have postgres up and running first before executing tests
     services:
       postgres:
         image: postgres:10.8
@@ -23,6 +24,7 @@ jobs:
         # needed because the postgres container does not provide a healthcheck
         options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
 
+    # Actions
     steps:
     - uses: actions/checkout@v2
 
@@ -31,9 +33,9 @@ jobs:
       with:
         python-version: ${{matrix.python-version}} 
         architecture: 'x64'
-
-    - name: "Install libpq-dev package"
-      run: sudo apt-get install libpq-dev
+    #   already installed with postgres
+    # - name: "Install libpq-dev package"
+    #   run: sudo apt-get install libpq-dev
 
     - name: "Upgrade pip, install venv and activate"
       run: |
@@ -49,9 +51,6 @@ jobs:
     - name: "run my test script"
       run: |
         source venv/bin/activate
-        ls -a
-        which python
-        which pip
         python ./my_script.py
 
     - name: "run postgres test"
