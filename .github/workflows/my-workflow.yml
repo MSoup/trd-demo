@@ -28,7 +28,7 @@ jobs:
     
     - name: "run test script"
       run: |
-      ls -a
-      which python
-      which pip
-      python ./my_script.py
+        ls -a
+        which python
+        which pip
+        python ./my_script.py
