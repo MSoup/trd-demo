@@ -1,6 +1,6 @@
 import unittest
 import sys
-sys.path.insert(0, "..")
+sys.path.append("..")
 from get_data import getRandomJoke
 
 

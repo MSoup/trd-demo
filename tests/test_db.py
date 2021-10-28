@@ -1,6 +1,6 @@
 import unittest
 import sys
-sys.path.insert(0, "..")
+sys.path.append("..")
 import psycopg2
 from config import config
 
