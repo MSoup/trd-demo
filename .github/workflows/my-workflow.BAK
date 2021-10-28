@@ -5,10 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     # runs-on: self-hosted
 
-    strategy:
-      matrix:
-        python-version: ['3.6', '3.6.5', '3.x']
-
     services:
       postgres:
         image: postgres:10.8
@@ -28,7 +24,7 @@ jobs:
     - name: Install Python
       uses: actions/setup-python@v2
       with:
-        python-version: &{{matrix.python-version}} # Version range or exact version of a Python version to use, using SemVer's version range syntax
+        python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
         architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
 
     - name: "Install libpq-dev package"
