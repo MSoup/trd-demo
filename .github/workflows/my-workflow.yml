@@ -4,6 +4,19 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
     # runs-on: self-hosted
+
+    services:
+      postgres:
+        image: postgres:10.8
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: github_actions
+        ports:
+          - 5432:5432
+        # needed because the postgres container does not provide a healthcheck
+        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+
     steps:
     - uses: actions/checkout@v2
 
@@ -23,15 +36,19 @@ jobs:
 
     - name: "install dependencies from requirements.txt"
       run: |
+        source venv/bin/activate
         pip install --upgrade pip
         pip install -r requirements.txt
-    
+        
     - name: "run test script"
       run: |
-        which python
-        which pip
         source venv/bin/activate
         ls -a
         which python
         which pip
         python ./my_script.py
+
+    # - name: "install postgresql image"
+    #   uses: harmon758/postgresql-action@v1
+    #   with:
+    #     postgresql version: '11'
