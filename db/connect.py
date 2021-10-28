@@ -25,14 +25,14 @@ def connect():
         print(db_version)
        
         print('Creating DB contents...')
-        cur.execute("CREATE TABLE test_table (id serial PRIMARY KEY, num integer, data varchar);")
+        cur.execute("CREATE TABLE test_db (id serial PRIMARY KEY, num integer, data varchar);")
 
         print("Trying to select table I just made")
-        cur.execute(f"INSERT INTO test_db (num, data) VALUES {100}, {"abc'def"}")
+        cur.execute(f"INSERT INTO test_db (num, data) VALUES {100}, {"abc'def"};")
 
 	# close the communication with the PostgreSQL
         cur.close()
-        
+
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
     finally:
