@@ -3,10 +3,12 @@ import psycopg2
 from db.config import config
 
 class TestDatabase(unittest.TestCase):
-    def setup(self):
+    def __init__(self):
         self.conn = None
-        params = config()
-        self.conn = psycopg2.connect(**params)
+        self.params = config()
+
+    def setup(self):
+        self.conn = psycopg2.connect(**self.params)
 
     def test_db_connection(self):
         # connect to the PostgreSQL server
