@@ -51,10 +51,10 @@ jobs:
     - name: "run my test script"
       run: |
         source venv/bin/activate
-        python ./tests/test_quote_gen.py
+        python ./test_quote_gen.py
 
     - name: "test postgres instance"
       run: |
         source venv/bin/activate
         python ./db/connect.py
-        python ./tests/test_db.py
+        python ./test_db.py
