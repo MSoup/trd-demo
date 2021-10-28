@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 21,
+  "agentName": "trd-demo-runner",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/PSlUfAUUXH794WtZOxjYy89gVtwPYbma1hbVvMMNQhhettO9OK",
+  "gitHubUrl": "https://github.com/MSoup/trd-demo",
+  "workFolder": "_work"
+}

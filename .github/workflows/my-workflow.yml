@@ -1,9 +1,9 @@
 name: Triplet R&D Demo
 on: [push]
 jobs:
-  action:
-    runs-on: ubuntu-latest
-
+  build:
+    # runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
     - uses: actions/checkout@v2
 
@@ -16,10 +16,13 @@ jobs:
     - name: "Install libpq-dev package"
       run: sudo apt-get install libpq-dev
 
-    - name: "Install venv, then dependencies from requirements.txt"
+    - name: "Upgrade pip, install venv"
       run: |
         pip install --upgrade pip
         python -m venv venv
+
+    - name: "Activate venv, install dependencies from requirements.txt"
+      run: |
         source venv/bin/activate
         pip install -r requirements.txt
         python ./my_script.py

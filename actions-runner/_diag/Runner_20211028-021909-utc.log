@@ -1,0 +1,126 @@
+[2021-10-28 02:19:09Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2021-10-28 02:19:09Z INFO HostContext] Well known directory 'Bin': 'C:\projectdir\python-actions\actions-runner\bin'
+[2021-10-28 02:19:09Z INFO HostContext] Well known directory 'Root': 'C:\projectdir\python-actions\actions-runner'
+[2021-10-28 02:19:09Z INFO HostContext] Well known config file 'Credentials': 'C:\projectdir\python-actions\actions-runner\.credentials'
+[2021-10-28 02:19:09Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2021-10-28 02:19:09Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19042.
+[2021-10-28 02:19:09Z INFO Listener] Version: 2.283.3
+[2021-10-28 02:19:09Z INFO Listener] Commit: 844595b1b3f2b73aa4aa94025326fc0a8c0ca780
+[2021-10-28 02:19:09Z INFO Listener] Culture: ja-JP
+[2021-10-28 02:19:09Z INFO Listener] UI Culture: ja-JP
+[2021-10-28 02:19:09Z INFO HostContext] Well known directory 'Bin': 'C:\projectdir\python-actions\actions-runner\bin'
+[2021-10-28 02:19:09Z INFO HostContext] Well known directory 'Root': 'C:\projectdir\python-actions\actions-runner'
+[2021-10-28 02:19:09Z INFO Listener] Validating directory permissions for: 'C:\projectdir\python-actions\actions-runner'
+[2021-10-28 02:19:09Z INFO CommandLineParser] Parse
+[2021-10-28 02:19:09Z INFO CommandLineParser] Parsing 1 args
+[2021-10-28 02:19:09Z INFO CommandLineParser] parsing argument
+[2021-10-28 02:19:09Z INFO CommandLineParser] HasArgs: False
+[2021-10-28 02:19:09Z INFO CommandLineParser] Adding Command: run
+[2021-10-28 02:19:09Z INFO Listener] Arguments parsed
+[2021-10-28 02:19:09Z INFO Runner] ExecuteCommand
+[2021-10-28 02:19:09Z INFO ConfigurationStore] currentAssemblyLocation: C:\projectdir\python-actions\actions-runner\bin\Runner.Listener.dll
+[2021-10-28 02:19:09Z INFO HostContext] Well known directory 'Bin': 'C:\projectdir\python-actions\actions-runner\bin'
+[2021-10-28 02:19:09Z INFO ConfigurationStore] binPath: C:\projectdir\python-actions\actions-runner\bin
+[2021-10-28 02:19:09Z INFO HostContext] Well known directory 'Bin': 'C:\projectdir\python-actions\actions-runner\bin'
+[2021-10-28 02:19:09Z INFO HostContext] Well known directory 'Root': 'C:\projectdir\python-actions\actions-runner'
+[2021-10-28 02:19:09Z INFO ConfigurationStore] RootFolder: C:\projectdir\python-actions\actions-runner
+[2021-10-28 02:19:09Z INFO HostContext] Well known directory 'Bin': 'C:\projectdir\python-actions\actions-runner\bin'
+[2021-10-28 02:19:09Z INFO HostContext] Well known directory 'Root': 'C:\projectdir\python-actions\actions-runner'
+[2021-10-28 02:19:09Z INFO HostContext] Well known config file 'Runner': 'C:\projectdir\python-actions\actions-runner\.runner'
+[2021-10-28 02:19:09Z INFO ConfigurationStore] ConfigFilePath: C:\projectdir\python-actions\actions-runner\.runner
+[2021-10-28 02:19:09Z INFO HostContext] Well known directory 'Bin': 'C:\projectdir\python-actions\actions-runner\bin'
+[2021-10-28 02:19:09Z INFO HostContext] Well known directory 'Root': 'C:\projectdir\python-actions\actions-runner'
+[2021-10-28 02:19:09Z INFO HostContext] Well known config file 'Credentials': 'C:\projectdir\python-actions\actions-runner\.credentials'
+[2021-10-28 02:19:09Z INFO ConfigurationStore] CredFilePath: C:\projectdir\python-actions\actions-runner\.credentials
+[2021-10-28 02:19:09Z INFO HostContext] Well known directory 'Bin': 'C:\projectdir\python-actions\actions-runner\bin'
+[2021-10-28 02:19:09Z INFO HostContext] Well known directory 'Root': 'C:\projectdir\python-actions\actions-runner'
+[2021-10-28 02:19:09Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\projectdir\python-actions\actions-runner\.credentials_migrated'
+[2021-10-28 02:19:09Z INFO ConfigurationStore] MigratedCredFilePath: C:\projectdir\python-actions\actions-runner\.credentials_migrated
+[2021-10-28 02:19:09Z INFO HostContext] Well known directory 'Bin': 'C:\projectdir\python-actions\actions-runner\bin'
+[2021-10-28 02:19:09Z INFO HostContext] Well known directory 'Root': 'C:\projectdir\python-actions\actions-runner'
+[2021-10-28 02:19:09Z INFO HostContext] Well known config file 'Service': 'C:\projectdir\python-actions\actions-runner\.service'
+[2021-10-28 02:19:09Z INFO ConfigurationStore] ServiceConfigFilePath: C:\projectdir\python-actions\actions-runner\.service
+[2021-10-28 02:19:09Z INFO CommandSettings] Flag 'help': 'False'
+[2021-10-28 02:19:09Z INFO CommandSettings] Flag 'version': 'False'
+[2021-10-28 02:19:09Z INFO CommandSettings] Flag 'commit': 'False'
+[2021-10-28 02:19:09Z INFO CommandSettings] Flag 'check': 'False'
+[2021-10-28 02:19:09Z INFO CommandSettings] Command 'configure': 'False'
+[2021-10-28 02:19:09Z INFO CommandSettings] Command 'remove': 'False'
+[2021-10-28 02:19:09Z INFO CommandSettings] Command 'warmup': 'False'
+[2021-10-28 02:19:09Z INFO ConfigurationManager] LoadSettings
+[2021-10-28 02:19:09Z INFO ConfigurationStore] IsConfigured()
+[2021-10-28 02:19:09Z INFO ConfigurationStore] IsConfigured: True
+[2021-10-28 02:19:09Z INFO ConfigurationManager] Is configured: True
+[2021-10-28 02:19:09Z INFO ConfigurationStore] Read setting file: 295 chars
+[2021-10-28 02:19:09Z INFO ConfigurationManager] Settings Loaded
+[2021-10-28 02:19:09Z INFO ConfigurationStore] IsServiceConfigured()
+[2021-10-28 02:19:09Z INFO ConfigurationStore] IsServiceConfigured: False
+[2021-10-28 02:19:09Z INFO CommandSettings] Command 'run': 'True'
+[2021-10-28 02:19:09Z INFO ConfigurationStore] IsConfigured()
+[2021-10-28 02:19:09Z INFO ConfigurationStore] IsConfigured: True
+[2021-10-28 02:19:09Z INFO ConfigurationManager] Is configured: True
+[2021-10-28 02:19:09Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2021-10-28 02:19:09Z INFO Runner] Set runner startup type - Manual
+[2021-10-28 02:19:09Z INFO CommandSettings] Flag 'once': 'False'
+[2021-10-28 02:19:09Z INFO CommandSettings] Flag 'once': 'False'
+[2021-10-28 02:19:09Z INFO Runner] RunAsync
+[2021-10-28 02:19:09Z INFO ConfigurationManager] LoadSettings
+[2021-10-28 02:19:09Z INFO ConfigurationStore] IsConfigured()
+[2021-10-28 02:19:09Z INFO ConfigurationStore] IsConfigured: True
+[2021-10-28 02:19:09Z INFO ConfigurationManager] Is configured: True
+[2021-10-28 02:19:09Z INFO ConfigurationManager] Settings Loaded
+[2021-10-28 02:19:09Z INFO MessageListener] {
+  "AgentId": 21,
+  "AgentName": "trd-demo-runner",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/PSlUfAUUXH794WtZOxjYy89gVtwPYbma1hbVvMMNQhhettO9OK",
+  "GitHubUrl": "https://github.com/MSoup/trd-demo",
+  "WorkFolder": "_work"
+}
+[2021-10-28 02:19:09Z INFO MessageListener] Loading Credentials
+[2021-10-28 02:19:09Z INFO ConfigurationStore] HasCredentials()
+[2021-10-28 02:19:09Z INFO ConfigurationStore] stored True
+[2021-10-28 02:19:09Z INFO CredentialManager] GetCredentialProvider
+[2021-10-28 02:19:09Z INFO CredentialManager] Creating type OAuth
+[2021-10-28 02:19:09Z INFO CredentialManager] Creating credential type: OAuth
+[2021-10-28 02:19:09Z INFO HostContext] Well known directory 'Bin': 'C:\projectdir\python-actions\actions-runner\bin'
+[2021-10-28 02:19:09Z INFO HostContext] Well known directory 'Root': 'C:\projectdir\python-actions\actions-runner'
+[2021-10-28 02:19:09Z INFO HostContext] Well known config file 'RSACredentials': 'C:\projectdir\python-actions\actions-runner\.credentials_rsaparams'
+[2021-10-28 02:19:09Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\projectdir\python-actions\actions-runner\.credentials_rsaparams
+[2021-10-28 02:19:09Z INFO MessageListener] Attempt to create session.
+[2021-10-28 02:19:09Z INFO MessageListener] Connecting to the Runner Server...
+[2021-10-28 02:19:09Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2021-10-28 02:19:09Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-10-28 02:19:09Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-10-28 02:19:09Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-10-28 02:19:09Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-10-28 02:19:09Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-10-28 02:19:09Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/PSlUfAUUXH794WtZOxjYy89gVtwPYbma1hbVvMMNQhhettO9OK/_apis/connectionData?connectOptions=0&lastChangeId=118785&lastChangeId64=118785 failed (Socket Error: ConnectionReset). The operation will be retried in 11.079 seconds.
+[2021-10-28 02:19:09Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/PSlUfAUUXH794WtZOxjYy89gVtwPYbma1hbVvMMNQhhettO9OK/_apis/connectionData?connectOptions=0&lastChangeId=118785&lastChangeId64=118785 failed (Socket Error: ConnectionReset). The operation will be retried in 11.005 seconds.
+[2021-10-28 02:19:10Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-10-28 02:19:21Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-10-28 02:19:21Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-10-28 02:19:21Z INFO MessageListener] VssConnection created
+[2021-10-28 02:19:21Z INFO Terminal] WRITE LINE: 
+[2021-10-28 02:19:21Z INFO Terminal] WRITE LINE: 
+[2021-10-28 02:19:21Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: f328fbf9-e4ce-4e73-b940-682dab3d0fcc
+ActivityId: 2fe01075-edc0-4b4d-a1c9-f3e0bd487fbc
+X-TFS-Session: 863a8c63-d085-4b48-a1e2-bd1ea01a6075
+X-VSS-E2EID: a942dc6a-1e41-4dfc-af3a-08fbfc89b28a
+X-VSS-SenderDeploymentId: 6be79bb9-f6f7-24a7-0b27-e718f2ab4200
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: BB0CAF6DD1CE42CBA3E9EB72F777DEEE Ref B: TYBEDGE0407 Ref C: 2021-10-28T02:19:21Z
+Date: Thu, 28 Oct 2021 02:19:21 GMT
+
+[2021-10-28 02:19:21Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\projectdir\python-actions\actions-runner\.credentials_rsaparams
+[2021-10-28 02:19:21Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\projectdir\python-actions\actions-runner\.credentials_rsaparams
+[2021-10-28 02:19:22Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2021-10-28 02:19:22Z INFO MessageListener] Session created.
+[2021-10-28 02:19:22Z INFO Terminal] WRITE LINE: 2021-10-28 02:19:22Z: Listening for Jobs
+[2021-10-28 02:19:22Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.

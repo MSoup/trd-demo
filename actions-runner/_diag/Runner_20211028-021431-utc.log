@@ -1,0 +1,236 @@
+[2021-10-28 02:14:31Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2021-10-28 02:14:31Z INFO HostContext] Well known directory 'Bin': 'C:\projectdir\python-actions\actions-runner\bin'
+[2021-10-28 02:14:31Z INFO HostContext] Well known directory 'Root': 'C:\projectdir\python-actions\actions-runner'
+[2021-10-28 02:14:31Z INFO HostContext] Well known config file 'Credentials': 'C:\projectdir\python-actions\actions-runner\.credentials'
+[2021-10-28 02:14:31Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2021-10-28 02:14:31Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19042.
+[2021-10-28 02:14:31Z INFO Listener] Version: 2.283.3
+[2021-10-28 02:14:31Z INFO Listener] Commit: 844595b1b3f2b73aa4aa94025326fc0a8c0ca780
+[2021-10-28 02:14:31Z INFO Listener] Culture: ja-JP
+[2021-10-28 02:14:31Z INFO Listener] UI Culture: ja-JP
+[2021-10-28 02:14:31Z INFO HostContext] Well known directory 'Bin': 'C:\projectdir\python-actions\actions-runner\bin'
+[2021-10-28 02:14:31Z INFO HostContext] Well known directory 'Root': 'C:\projectdir\python-actions\actions-runner'
+[2021-10-28 02:14:31Z INFO Listener] Validating directory permissions for: 'C:\projectdir\python-actions\actions-runner'
+[2021-10-28 02:14:31Z INFO CommandLineParser] Parse
+[2021-10-28 02:14:31Z INFO CommandLineParser] Parsing 5 args
+[2021-10-28 02:14:31Z INFO CommandLineParser] parsing argument
+[2021-10-28 02:14:31Z INFO CommandLineParser] HasArgs: False
+[2021-10-28 02:14:31Z INFO CommandLineParser] Adding Command: configure
+[2021-10-28 02:14:31Z INFO CommandLineParser] parsing argument
+[2021-10-28 02:14:31Z INFO CommandLineParser] HasArgs: True
+[2021-10-28 02:14:31Z INFO CommandLineParser] arg: url
+[2021-10-28 02:14:31Z INFO CommandLineParser] parsing argument
+[2021-10-28 02:14:31Z INFO CommandLineParser] HasArgs: True
+[2021-10-28 02:14:31Z INFO CommandLineParser] Adding option 'url': 'https://github.com/MSoup/trd-demo'
+[2021-10-28 02:14:31Z INFO CommandLineParser] parsing argument
+[2021-10-28 02:14:31Z INFO CommandLineParser] HasArgs: True
+[2021-10-28 02:14:31Z INFO CommandLineParser] arg: token
+[2021-10-28 02:14:31Z INFO CommandLineParser] parsing argument
+[2021-10-28 02:14:31Z INFO CommandLineParser] HasArgs: True
+[2021-10-28 02:14:31Z INFO CommandLineParser] Adding option 'token': '***'
+[2021-10-28 02:14:31Z INFO Listener] Arguments parsed
+[2021-10-28 02:14:31Z INFO Runner] ExecuteCommand
+[2021-10-28 02:14:31Z INFO ConfigurationStore] currentAssemblyLocation: C:\projectdir\python-actions\actions-runner\bin\Runner.Listener.dll
+[2021-10-28 02:14:31Z INFO HostContext] Well known directory 'Bin': 'C:\projectdir\python-actions\actions-runner\bin'
+[2021-10-28 02:14:31Z INFO ConfigurationStore] binPath: C:\projectdir\python-actions\actions-runner\bin
+[2021-10-28 02:14:31Z INFO HostContext] Well known directory 'Bin': 'C:\projectdir\python-actions\actions-runner\bin'
+[2021-10-28 02:14:31Z INFO HostContext] Well known directory 'Root': 'C:\projectdir\python-actions\actions-runner'
+[2021-10-28 02:14:31Z INFO ConfigurationStore] RootFolder: C:\projectdir\python-actions\actions-runner
+[2021-10-28 02:14:31Z INFO HostContext] Well known directory 'Bin': 'C:\projectdir\python-actions\actions-runner\bin'
+[2021-10-28 02:14:31Z INFO HostContext] Well known directory 'Root': 'C:\projectdir\python-actions\actions-runner'
+[2021-10-28 02:14:31Z INFO HostContext] Well known config file 'Runner': 'C:\projectdir\python-actions\actions-runner\.runner'
+[2021-10-28 02:14:31Z INFO ConfigurationStore] ConfigFilePath: C:\projectdir\python-actions\actions-runner\.runner
+[2021-10-28 02:14:31Z INFO HostContext] Well known directory 'Bin': 'C:\projectdir\python-actions\actions-runner\bin'
+[2021-10-28 02:14:31Z INFO HostContext] Well known directory 'Root': 'C:\projectdir\python-actions\actions-runner'
+[2021-10-28 02:14:31Z INFO HostContext] Well known config file 'Credentials': 'C:\projectdir\python-actions\actions-runner\.credentials'
+[2021-10-28 02:14:31Z INFO ConfigurationStore] CredFilePath: C:\projectdir\python-actions\actions-runner\.credentials
+[2021-10-28 02:14:31Z INFO HostContext] Well known directory 'Bin': 'C:\projectdir\python-actions\actions-runner\bin'
+[2021-10-28 02:14:31Z INFO HostContext] Well known directory 'Root': 'C:\projectdir\python-actions\actions-runner'
+[2021-10-28 02:14:31Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\projectdir\python-actions\actions-runner\.credentials_migrated'
+[2021-10-28 02:14:31Z INFO ConfigurationStore] MigratedCredFilePath: C:\projectdir\python-actions\actions-runner\.credentials_migrated
+[2021-10-28 02:14:31Z INFO HostContext] Well known directory 'Bin': 'C:\projectdir\python-actions\actions-runner\bin'
+[2021-10-28 02:14:31Z INFO HostContext] Well known directory 'Root': 'C:\projectdir\python-actions\actions-runner'
+[2021-10-28 02:14:31Z INFO HostContext] Well known config file 'Service': 'C:\projectdir\python-actions\actions-runner\.service'
+[2021-10-28 02:14:31Z INFO ConfigurationStore] ServiceConfigFilePath: C:\projectdir\python-actions\actions-runner\.service
+[2021-10-28 02:14:31Z INFO CommandSettings] Flag 'help': 'False'
+[2021-10-28 02:14:31Z INFO CommandSettings] Flag 'version': 'False'
+[2021-10-28 02:14:31Z INFO CommandSettings] Flag 'commit': 'False'
+[2021-10-28 02:14:31Z INFO CommandSettings] Flag 'check': 'False'
+[2021-10-28 02:14:31Z INFO CommandSettings] Command 'configure': 'True'
+[2021-10-28 02:14:32Z INFO Terminal] WRITE LINE: 
+[2021-10-28 02:14:32Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2021-10-28 02:14:32Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2021-10-28 02:14:32Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2021-10-28 02:14:32Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2021-10-28 02:14:32Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2021-10-28 02:14:32Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2021-10-28 02:14:32Z INFO Terminal] WRITE LINE: |                                                                              |
+[2021-10-28 02:14:32Z INFO Terminal] WRITE: |                       
+[2021-10-28 02:14:32Z INFO Terminal] WRITE: Self-hosted runner registration
+[2021-10-28 02:14:32Z INFO Terminal] WRITE LINE:                         |
+[2021-10-28 02:14:32Z INFO Terminal] WRITE LINE: |                                                                              |
+[2021-10-28 02:14:32Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2021-10-28 02:14:32Z INFO ConfigurationManager] ConfigureAsync
+[2021-10-28 02:14:32Z INFO ConfigurationStore] IsConfigured()
+[2021-10-28 02:14:32Z INFO ConfigurationStore] IsConfigured: False
+[2021-10-28 02:14:32Z INFO ConfigurationManager] Is configured: False
+[2021-10-28 02:14:32Z INFO CommandSettings] Arg 'url': 'https://github.com/MSoup/trd-demo'
+[2021-10-28 02:14:32Z INFO CommandSettings] Remove url from Arg dictionary.
+[2021-10-28 02:14:32Z INFO CommandSettings] Arg 'token': '***'
+[2021-10-28 02:14:32Z INFO CommandSettings] Remove token from Arg dictionary.
+[2021-10-28 02:14:34Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration'
+[2021-10-28 02:14:34Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2021-10-28 02:14:34Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2021-10-28 02:14:34Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-10-28 02:14:34Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-10-28 02:14:34Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-10-28 02:14:34Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-10-28 02:14:34Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-10-28 02:14:35Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/PSlUfAUUXH794WtZOxjYy89gVtwPYbma1hbVvMMNQhhettO9OK/_apis/connectionData?connectOptions=1&lastChangeId=-1&lastChangeId64=-1 failed (Socket Error: ConnectionReset). The operation will be retried in 11.092 seconds.
+[2021-10-28 02:14:35Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/PSlUfAUUXH794WtZOxjYy89gVtwPYbma1hbVvMMNQhhettO9OK/_apis/connectionData?connectOptions=1&lastChangeId=-1&lastChangeId64=-1 failed (Socket Error: ConnectionReset). The operation will be retried in 10.819 seconds.
+[2021-10-28 02:14:35Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/PSlUfAUUXH794WtZOxjYy89gVtwPYbma1hbVvMMNQhhettO9OK/_apis/connectionData?connectOptions=1&lastChangeId=-1&lastChangeId64=-1 failed (Socket Error: ConnectionReset). The operation will be retried in 11.038 seconds.
+[2021-10-28 02:14:45Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/PSlUfAUUXH794WtZOxjYy89gVtwPYbma1hbVvMMNQhhettO9OK/_apis/connectionData?connectOptions=1&lastChangeId=-1&lastChangeId64=-1 failed (Socket Error: ConnectionReset). The operation will be retried in 13.573 seconds.
+[2021-10-28 02:14:46Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/PSlUfAUUXH794WtZOxjYy89gVtwPYbma1hbVvMMNQhhettO9OK/_apis/connectionData?connectOptions=1&lastChangeId=-1&lastChangeId64=-1 failed (Socket Error: ConnectionReset). The operation will be retried in 13.345 seconds.
+[2021-10-28 02:14:47Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-10-28 02:14:59Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/PSlUfAUUXH794WtZOxjYy89gVtwPYbma1hbVvMMNQhhettO9OK/_apis/connectionData?connectOptions=1&lastChangeId=-1&lastChangeId64=-1 failed (Socket Error: ConnectionReset). The operation will be retried in 16.58 seconds.
+[2021-10-28 02:14:59Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/PSlUfAUUXH794WtZOxjYy89gVtwPYbma1hbVvMMNQhhettO9OK/_apis/connectionData?connectOptions=1&lastChangeId=-1&lastChangeId64=-1 failed (Socket Error: ConnectionReset). The operation will be retried in 15.817 seconds.
+[2021-10-28 02:15:16Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-10-28 02:15:16Z ERR  GitHubActionsService] Attempt 4 of GET request to https://pipelines.actions.githubusercontent.com/PSlUfAUUXH794WtZOxjYy89gVtwPYbma1hbVvMMNQhhettO9OK/_apis/connectionData?connectOptions=1&lastChangeId=-1&lastChangeId64=-1 failed (Socket Error: ConnectionReset). The maximum number of attempts has been reached.
+[2021-10-28 02:15:16Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-10-28 02:15:16Z INFO RunnerServer] Catch exception during connect. 4 attempt left.
+[2021-10-28 02:15:16Z ERR  RunnerServer] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 既存の接続はリモート ホストに強制的に切断されました。.
+ ---> System.Net.Sockets.SocketException (10054): 既存の接続はリモート ホストに強制的に切断されました。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.FixedSizeReader.ReadPacketAsync(Stream transport, AsyncProtocolRequest request)
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsClient(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsClientAsync>b__65_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsyncCore(Stream stream, SslClientAuthenticationOptions sslOptions, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerServer.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2021-10-28 02:15:16Z ERR  RunnerServer] #####################################################
+[2021-10-28 02:15:16Z ERR  RunnerServer] System.IO.IOException: Unable to read data from the transport connection: 既存の接続はリモート ホストに強制的に切断されました。.
+ ---> System.Net.Sockets.SocketException (10054): 既存の接続はリモート ホストに強制的に切断されました。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.FixedSizeReader.ReadPacketAsync(Stream transport, AsyncProtocolRequest request)
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsClient(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsClientAsync>b__65_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsyncCore(Stream stream, SslClientAuthenticationOptions sslOptions, CancellationToken cancellationToken)
+[2021-10-28 02:15:16Z ERR  RunnerServer] #####################################################
+[2021-10-28 02:15:16Z ERR  RunnerServer] System.Net.Sockets.SocketException (10054): 既存の接続はリモート ホストに強制的に切断されました。
+[2021-10-28 02:15:16Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-10-28 02:15:16Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/PSlUfAUUXH794WtZOxjYy89gVtwPYbma1hbVvMMNQhhettO9OK/_apis/connectionData?connectOptions=0&lastChangeId=118785&lastChangeId64=118785 failed (Socket Error: ConnectionReset). The operation will be retried in 11.089 seconds.
+[2021-10-28 02:15:28Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-10-28 02:15:28Z INFO Terminal] WRITE LINE: 
+[2021-10-28 02:15:28Z INFO ConfigurationManager] Test Connection complete.
+[2021-10-28 02:15:28Z INFO HostContext] Well known directory 'Bin': 'C:\projectdir\python-actions\actions-runner\bin'
+[2021-10-28 02:15:28Z INFO HostContext] Well known directory 'Root': 'C:\projectdir\python-actions\actions-runner'
+[2021-10-28 02:15:28Z INFO HostContext] Well known config file 'RSACredentials': 'C:\projectdir\python-actions\actions-runner\.credentials_rsaparams'
+[2021-10-28 02:15:28Z INFO RSAEncryptedFileKeyManager] Creating new RSA key using 2048-bit key length
+[2021-10-28 02:15:28Z INFO RSAEncryptedFileKeyManager] Successfully saved RSA key parameters to file C:\projectdir\python-actions\actions-runner\.credentials_rsaparams
+[2021-10-28 02:15:28Z INFO CommandSettings] Arg 'runnergroup': ''
+[2021-10-28 02:15:28Z INFO CommandSettings] Flag 'unattended': 'False'
+[2021-10-28 02:15:28Z INFO PromptManager] ReadValue
+[2021-10-28 02:15:28Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2021-10-28 02:15:28Z INFO Terminal] WRITE: [press Enter for Default] 
+[2021-10-28 02:15:28Z INFO Terminal] READ LINE
+[2021-10-28 02:15:41Z INFO Terminal] Read value: ''
+[2021-10-28 02:15:41Z INFO PromptManager] Falling back to the default: 'Default'
+[2021-10-28 02:15:41Z INFO Terminal] WRITE LINE: 
+[2021-10-28 02:15:41Z INFO ConfigurationManager] Found a self-hosted runner group with id 1 and name Default
+[2021-10-28 02:15:41Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2021-10-28 02:15:41Z INFO CommandSettings] Arg 'name': ''
+[2021-10-28 02:15:41Z INFO CommandSettings] Flag 'unattended': 'False'
+[2021-10-28 02:15:41Z INFO PromptManager] ReadValue
+[2021-10-28 02:15:41Z INFO Terminal] WRITE: Enter the name of runner: 
+[2021-10-28 02:15:41Z INFO Terminal] WRITE: [press Enter for DESKTOP-C8J2POC] 
+[2021-10-28 02:15:41Z INFO Terminal] READ LINE
+[2021-10-28 02:15:52Z INFO Terminal] Read value: 'trd-demo-runner'
+[2021-10-28 02:15:52Z INFO Terminal] WRITE LINE: 
+[2021-10-28 02:15:52Z INFO CommandSettings] Arg 'labels': ''
+[2021-10-28 02:15:52Z INFO CommandSettings] Flag 'unattended': 'False'
+[2021-10-28 02:15:52Z INFO PromptManager] ReadValue
+[2021-10-28 02:15:52Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Windows', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2021-10-28 02:15:52Z INFO Terminal] WRITE: [press Enter to skip] 
+[2021-10-28 02:15:52Z INFO Terminal] READ LINE
+[2021-10-28 02:15:58Z INFO Terminal] Read value: ''
+[2021-10-28 02:15:58Z INFO Terminal] WRITE LINE: 
+[2021-10-28 02:15:59Z INFO ConfigurationStore] Saving OAuth credential @ C:\projectdir\python-actions\actions-runner\.credentials
+[2021-10-28 02:15:59Z INFO ConfigurationStore] Credentials Saved.
+[2021-10-28 02:15:59Z INFO ConfigurationStore] HasCredentials()
+[2021-10-28 02:15:59Z INFO ConfigurationStore] stored True
+[2021-10-28 02:15:59Z INFO CredentialManager] GetCredentialProvider
+[2021-10-28 02:15:59Z INFO CredentialManager] Creating type OAuth
+[2021-10-28 02:15:59Z INFO CredentialManager] Creating credential type: OAuth
+[2021-10-28 02:15:59Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\projectdir\python-actions\actions-runner\.credentials_rsaparams
+[2021-10-28 02:15:59Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2021-10-28 02:15:59Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-10-28 02:15:59Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-10-28 02:15:59Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-10-28 02:15:59Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-10-28 02:15:59Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-10-28 02:16:00Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-10-28 02:16:00Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-10-28 02:16:00Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-10-28 02:16:00Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: f328fbf9-e4ce-4e73-b940-682dab3d0fcc
+ActivityId: 2fe0d4b7-edc0-4b4d-a1c9-f3e0bd487fbc
+X-TFS-Session: c31a72a1-055b-4f04-b795-bc526d584022
+X-VSS-E2EID: 18872064-8873-4b61-a2eb-dc73dc270be2
+X-VSS-SenderDeploymentId: 6be79bb9-f6f7-24a7-0b27-e718f2ab4200
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 0E0BBC0A32F645E19B9EEB30A62586DE Ref B: TYBEDGE0607 Ref C: 2021-10-28T02:16:00Z
+Date: Thu, 28 Oct 2021 02:16:00 GMT
+
+[2021-10-28 02:16:00Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\projectdir\python-actions\actions-runner\.credentials_rsaparams
+[2021-10-28 02:16:00Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\projectdir\python-actions\actions-runner\.credentials_rsaparams
+[2021-10-28 02:16:00Z WARN GitHubActionsService] Attempt 1 of POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/445ef851-b456-481e-b4b7-ecf57ad6c4a9 failed (Socket Error: ConnectionReset). The operation will be retried in 11.115 seconds.
+[2021-10-28 02:16:12Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2021-10-28 02:16:12Z WARN GitHubActionsService] Retrieving an AAD auth token took a long time (11.9287616 seconds)
+[2021-10-28 02:16:12Z INFO CommandSettings] Arg 'work': ''
+[2021-10-28 02:16:12Z INFO CommandSettings] Flag 'unattended': 'False'
+[2021-10-28 02:16:12Z INFO PromptManager] ReadValue
+[2021-10-28 02:16:12Z INFO Terminal] WRITE: Enter name of work folder: 
+[2021-10-28 02:16:12Z INFO Terminal] WRITE: [press Enter for _work] 
+[2021-10-28 02:16:12Z INFO Terminal] READ LINE
+[2021-10-28 02:16:21Z INFO Terminal] Read value: ''
+[2021-10-28 02:16:21Z INFO PromptManager] Falling back to the default: '_work'
+[2021-10-28 02:16:21Z INFO ConfigurationStore] Saving runner settings.
+[2021-10-28 02:16:21Z INFO ConfigurationStore] Settings Saved.
+[2021-10-28 02:16:21Z INFO Terminal] WRITE LINE: 
+[2021-10-28 02:16:21Z INFO Terminal] WRITE LINE: 
+[2021-10-28 02:16:21Z INFO CommandSettings] Flag 'runasservice': 'False'
+[2021-10-28 02:16:21Z INFO CommandSettings] Flag 'unattended': 'False'
+[2021-10-28 02:16:21Z INFO PromptManager] ReadValue
+[2021-10-28 02:16:21Z INFO Terminal] WRITE: Would you like to run the runner as service? (Y/N) 
+[2021-10-28 02:16:21Z INFO Terminal] WRITE: [press Enter for N] 
+[2021-10-28 02:16:21Z INFO Terminal] READ LINE
+[2021-10-28 02:18:13Z INFO Terminal] Read value: ''
+[2021-10-28 02:18:13Z INFO PromptManager] Falling back to the default: 'N'
+[2021-10-28 02:18:13Z INFO Listener] Runner execution has finished with return code 0
