@@ -2,6 +2,5 @@ requests
 pandas
 openpyxl
 py-postgresql
-libpq-dev==9.4.3
-psycopg2
+psycopg2-binary
 logging
