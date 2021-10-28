@@ -25,4 +25,9 @@ jobs:
       run: |
         source venv/bin/activate
         pip install -r requirements.txt
-        python ./my_script.py
+  test:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: "run test script"
+        run: python ./my_script.py
