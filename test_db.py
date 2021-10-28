@@ -5,11 +5,11 @@ from db.config import config
 class TestDatabase(unittest.TestCase):
     def setup(self):
         self.conn = None
-        self.params = config()
-        
+        params = config()
+        self.conn = psycopg2.connect(**params)
+
     def test_db_connection(self):
         # connect to the PostgreSQL server
-        self.conn = psycopg2.connect(self.params)
         self.assertEqual(isinstance(self.conn, object), True)
 
 if __name__ == '__main__':
