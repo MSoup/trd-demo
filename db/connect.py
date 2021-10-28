@@ -26,9 +26,9 @@ def connect():
        
         print('Creating DB contents...')
         cur.execute("CREATE TABLE test_db (id serial PRIMARY KEY, num integer, data varchar);")
-        
+
         print("Trying to select table I just made")
-        cur.execute("INSERT INTO test (num, data) VALUES (%s, %s)",(100, "abc'def"))
+        cur.execute("INSERT INTO test_db (num, data) VALUES (%s, %s)",(100, "abc'def"))
 
         print("Test to see if DB retrieves it")
         cur.execute("SELECT * FROM test_db;")
