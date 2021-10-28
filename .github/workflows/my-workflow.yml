@@ -9,7 +9,7 @@ jobs:
       with:
         python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
         architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
-
+      name: install libpq-dev, upgrade pip, install venv, install dependencies
     - run: |
         sudo apt-get install libpq-dev
         pip install --upgrade pip
@@ -21,4 +21,7 @@ jobs:
     needs: setup
     runs-on: ubuntu-latest
     steps:
-      - run: python ./my_script.py
+      - run: |
+      ls
+      source venv/bin/activate
+      python ./my_script.py
