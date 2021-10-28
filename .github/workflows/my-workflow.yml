@@ -28,6 +28,8 @@ jobs:
     
     - name: "run test script"
       run: |
+        which python
+        which pip
         source venv/bin/activate
         ls -a
         which python
