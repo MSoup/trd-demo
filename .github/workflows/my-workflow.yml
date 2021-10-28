@@ -17,3 +17,4 @@ jobs:
         pip install requests
         python ./my_script.py
         echo Hello
+        ls
