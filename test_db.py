@@ -10,7 +10,8 @@ class TestDatabase(unittest.TestCase):
 
     def test_db_connection(self):
         # connect to the PostgreSQL server
-        self.assertEqual(isinstance(self.conn, object), True)
+        cur = self.conn.cursor()
+        print(type(cur))
 
 if __name__ == '__main__':
     unittest.main()
@@ -27,7 +28,7 @@ if __name__ == '__main__':
 #         conn = psycopg2.connect(**params)
 		
 #         # create a cursor
-#         cur = conn.cursor()
+#         
         
 # 	# execute a statement
 #         print('PostgreSQL database version:')
