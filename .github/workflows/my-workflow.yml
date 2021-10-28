@@ -12,7 +12,7 @@ jobs:
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: postgres
           POSTGRES_DB: github_actions
-
+          POSTGRES_HOST: localhost
         ports:
           - 5432:5432
         # needed because the postgres container does not provide a healthcheck
@@ -52,10 +52,4 @@ jobs:
     - name: "run postgres test"
       run: |
         source venv/bin/activate
-        python ./connect_db.py
-
-      env:
-        # The hostname used to communicate with the PostgreSQL service container
-        POSTGRES_HOST: localhost
-        # The default PostgreSQL port
-        POSTGRES_PORT: 5432
+        python ./db/connect.py
