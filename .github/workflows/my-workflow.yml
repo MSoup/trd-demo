@@ -56,5 +56,4 @@ jobs:
     - name: "test postgres instance"
       run: |
         source venv/bin/activate
-        python ./db/connect.py
         python ./test_db.py

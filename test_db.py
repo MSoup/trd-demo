@@ -1,17 +1,16 @@
 import unittest
-import sys
 import psycopg2
 from db.config import config
 
 class TestDatabase(unittest.TestCase):
+    def setup(self):
+        self.conn = None
+        self.params = config()
+        
     def test_db_connection(self):
-        conn = None
-        # read connection parameters
-        params = config()
-
         # connect to the PostgreSQL server
-        conn = psycopg2.connect(**params)
-        print(conn)
+        self.conn = psycopg2.connect(**self.params)
+        self.assertEqual(isinstance(self.conn, object), True)
 
 # def connect():
 #     """ Connect to the PostgreSQL database server """
