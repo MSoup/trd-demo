@@ -21,7 +21,7 @@ jobs:
     needs: setup
     runs-on: ubuntu-latest
     steps:
-      - run: |
-          ls
-          source venv/bin/activate
-          python ./my_script.py
+    - run: |
+        ls
+        source venv/bin/activate
+        python ./my_script.py
