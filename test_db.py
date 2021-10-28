@@ -12,6 +12,9 @@ class TestDatabase(unittest.TestCase):
         self.conn = psycopg2.connect(**self.params)
         self.assertEqual(isinstance(self.conn, object), True)
 
+if __name__ == '__main__':
+    unittest.main()
+    
 # def connect():
 #     """ Connect to the PostgreSQL database server """
 #     conn = None
