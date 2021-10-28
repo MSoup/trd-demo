@@ -10,6 +10,6 @@ except:
     print("I am unable to connect to the database")
 
 
-cur.conn.cursor()
+cur = conn.cursor()
 
 cur.execute("CREATE DATABASE test")
