@@ -24,8 +24,13 @@ def connect():
         db_version = cur.fetchone()
         print(db_version)
        
-        print('Checking DB contents...')
-        cur.execute('SELECT * FROM github_actions')
+        print('Creating DB contents...')
+        command = """(
+            part_id serial PRIMARY KEY,
+            name VARCHAR ( 50 ) NOT NULL,
+            created_on TIMESTAMP NOT NULL);
+        """
+        cur.execute(command)
 
 	# close the communication with the PostgreSQL
         cur.close()
