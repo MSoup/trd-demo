@@ -40,7 +40,7 @@ jobs:
         pip install --upgrade pip
         pip install -r requirements.txt
         
-    - name: "run test script"
+    - name: "run my test script"
       run: |
         source venv/bin/activate
         ls -a
@@ -48,7 +48,5 @@ jobs:
         which pip
         python ./my_script.py
 
-    # - name: "install postgresql image"
-    #   uses: harmon758/postgresql-action@v1
-    #   with:
-    #     postgresql version: '11'
+    - name: "run postgres test"
+      run: python ./connect_db.py
