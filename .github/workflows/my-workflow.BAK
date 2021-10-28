@@ -1,26 +1,19 @@
 name: Triplet R&D Demo
 on: [push]
 jobs:
-  setup:
+  action:
     runs-on: ubuntu-latest
     steps:
-      name: Check out repo code
     - uses: actions/checkout@v2
-      name: Install python
     - uses: actions/setup-python@v2
       with:
         python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
         architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
 
+    - run: sudo apt-get install libpq-dev
     - run: |
-        sudo apt-get install libpq-dev
         pip install --upgrade pip
         python -m venv venv
         source venv/bin/activate
         pip install -r requirements.txt
-        
-  test:
-    needs: setup
-    runs-on: ubuntu-latest
-    steps:
-      - run: python ./my_script.py
+        python ./my_script.py
