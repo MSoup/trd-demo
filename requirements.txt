@@ -1,5 +1,7 @@
 requests
 pandas
 openpyxl
+# libpq unable to install, so I am using "sudo apt-get install libpq-dev" for now
 py-postgresql
-psycopg2-binary
+psycopg2
+# psycopg2-binary
