@@ -1,6 +1,8 @@
 import unittest
-from get_data import getRandomJoke
 import sys
+sys.path.insert(0, "..")
+from get_data import getRandomJoke
+
 
 class TestRandomQuoteGenerator(unittest.TestCase):
     def test_access_api_success(self):
