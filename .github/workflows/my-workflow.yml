@@ -5,19 +5,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-      name: setup python
     - uses: actions/setup-python@v2
       with:
         python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
         architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
 
-      name: setup venv
     - run: |
-        which pip
-        which python
-        pip --version
-        python --version
-
-        python venv venv
+        python -m venv venv
+        source venv/scripts/activate
+        pip install requests
 
     - run: python ./my_script.py
