@@ -49,4 +49,6 @@ jobs:
         python ./my_script.py
 
     - name: "run postgres test"
-      run: python ./connect_db.py
+      run: |
+        source venv/bin/activate
+        python ./connect_db.py
