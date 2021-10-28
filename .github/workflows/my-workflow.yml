@@ -16,14 +16,14 @@ jobs:
     - name: "Install libpq-dev package"
       run: sudo apt-get install libpq-dev
 
-    - name: "Upgrade pip, install venv"
+    - name: "Upgrade pip, install venv and activate"
+      run: |
+        python -m venv venv
+        source venv/bin/activate
+
+    - name: "install dependencies from requirements.txt"
       run: |
         pip install --upgrade pip
-        python -m venv venv
-
-    - name: "Activate venv, install dependencies from requirements.txt"
-      run: |
-        source venv/bin/activate
         pip install -r requirements.txt
     
     - name: "run test script"
