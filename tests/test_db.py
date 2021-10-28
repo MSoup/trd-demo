@@ -1,4 +1,6 @@
-#!/usr/bin/python
+import unittest
+import sys
+sys.path.insert(0, "..")
 import psycopg2
 from config import config
 
@@ -20,21 +22,6 @@ def connect():
         print('PostgreSQL database version:')
         cur.execute('SELECT version()')
 
-        # display the PostgreSQL database server version
-        db_version = cur.fetchone()
-        print(db_version)
-       
-        print('Creating DB contents...')
-        cur.execute("CREATE TABLE test_db (id serial PRIMARY KEY, num integer, data varchar);")
-
-        print("Select table that I made")
-        cur.execute("INSERT INTO test_db (num, data) VALUES (%s, %s)",(100, "abc'def"))
-
-        print("Test to see if DB retrieves it")
-        cur.execute("SELECT * FROM test_db;")
-
-        fetched_data = cur.fetchone()
-        print(fetched_data)
 	# close the communication with the PostgreSQL
         cur.close()
 
@@ -44,7 +31,3 @@ def connect():
         if conn is not None:
             conn.close()
             print('Database connection closed.')
-
-
-if __name__ == '__main__':
-    connect()
