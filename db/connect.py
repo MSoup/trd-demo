@@ -27,8 +27,15 @@ def connect():
         print('Creating DB contents...')
         cur.execute("CREATE TABLE test_db (id serial PRIMARY KEY, num integer, data varchar);")
 
+        data1 = "100"
+        data2 = "abc'def"
+
         print("Trying to select table I just made")
-        cur.execute(f"INSERT INTO test_db (num, data) VALUES {100}, {"abc'def"};")
+        cur.execute(f"INSERT INTO test_db (num, data) VALUES {data1}, {data2}")
+
+        print("Test to see if DB retrieves it")
+        cur.execute("SELECT * FROM test_db;")
+        cur.fetchone()
 
 	# close the communication with the PostgreSQL
         cur.close()
