@@ -1,8 +1,9 @@
 #!/usr/bin/python
 from configparser import ConfigParser
 import os
+# os.getenv('PWD')
 
-def config(filename=os.getenv('PWD')+'/database.ini', section='postgresql'):
+def config(filename='./db/database.ini', section='postgresql'):
     # create a parser
     parser = ConfigParser()
     # read config file
