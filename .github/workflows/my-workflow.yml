@@ -39,7 +39,7 @@ jobs:
 
     - name: "Upgrade pip, install venv and activate"
       run: |
-        python -m venv venv
+        python venv venv
         source venv/bin/activate
 
     - name: "install dependencies from requirements.txt"
